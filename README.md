@@ -77,6 +77,6 @@ to be handled differently from
 
 TODO:
 
-* ~~~Operator pending mappings cannot work. This is due to the behaviour of `mode()`, as executing `mode()` requires changing the mode from operator pending. Thus, we cannot dispatch keypresses based on being in this mode~~~
+* ~~Operator pending mappings cannot work. This is due to the behaviour of `mode()`, as executing `mode()` requires changing the mode from operator pending. Thus, we cannot dispatch keypresses based on being in this mode~~
 
-* ~~~Currently the {lhs} of a mapping can only be one character. This is due to the behaviour of `getchar()`, meaning only one character worth of input is read, rather than waiting for additional keypresses within the time limit of `ttimeout`~~~
+* ~~Currently the {lhs} of a mapping can only be one character. This is due to the behaviour of `getchar()`, meaning only one character worth of input is read, rather than waiting for additional keypresses within the time limit of `ttimeout`~~
