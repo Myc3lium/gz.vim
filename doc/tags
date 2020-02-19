@@ -1,0 +1,12 @@
+:Gzcmap	gz.txt	/*:Gzcmap*
+:Gzcnoremap	gz.txt	/*:Gzcnoremap*
+:Gzimap	gz.txt	/*:Gzimap*
+:Gzinoremap	gz.txt	/*:Gzinoremap*
+:Gznmap	gz.txt	/*:Gznmap*
+:Gznnoremap	gz.txt	/*:Gznnoremap*
+:Gzomap	gz.txt	/*:Gzomap*
+:Gzonoremap	gz.txt	/*:Gzonoremap*
+:Gzvmap	gz.txt	/*:Gzvmap*
+:Gzvnoremap	gz.txt	/*:Gzvnoremap*
+g:gz	gz.txt	/*g:gz*
+gz.txt	gz.txt	/*gz.txt*
