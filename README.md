@@ -1,4 +1,3 @@
-
 ＧＺ．ＶＩＭ
 
 gz.vim is a very small plugin designed to give a sub-mode/pseudo-operator
@@ -7,14 +6,14 @@ similar to the behaviour of the `<g>` or `<z>` keys. It's kind of like using
 even if you have `timeoutlen` set. For instance, if you use a very short
 |ttimeout| value like I do then mapping using `<g>` as a pseudo-leader alà 
 
-```vimscript
+```vim
     nnoremap g<key> ...
 ```
 
 won't work in quite the way you want it to. Mapping keys within the
 submode can be achieved using the commands
 
-```vimscript
+```vim
     :Gzn[nore]map [<expr>] {lhs} {rhs} mapmode-n 
     :Gzi[nore]map [<expr>] {lhs} {rhs} mapmode-i 
     :Gzc[nore]map [<expr>] {lhs} {rhs} mapmode-c 
@@ -44,7 +43,7 @@ variants alike.
 
 The leader used to enter gz-mode can be set using the `g:gz` global variable
 
-```vimscript
+```vim
     let g:gz = "gz"
 ```
 
@@ -56,7 +55,7 @@ English, and because it is a multiple character sequence.
 
 Multiple keys can now be mapped e.g.
 
-```vimscript
+```vim
     Gzcnoremap jk ...
 ```
 
@@ -64,13 +63,13 @@ This respects the |timeoutlen| option. This means that at least one key will
 be read on entering gz-mode, but any subsequent keys will only be read if
 hit in quick successions. This allows
 
-```vimscript
+```vim
     Gzcnoremap <key1><key2> ...
 ```
 
 to be handled differently from
 
-```vimscript
+```vim
     Gzcnoremap <key1> ...
     Gzcnoremap <key2> ...
 ```
