@@ -1,4 +1,4 @@
-ＧＺ．ＶＩＭ
+# ＧＺ．ＶＩＭ
 
 gz.vim is a very small plugin designed to give a sub-mode/pseudo-operator
 similar to the behaviour of the `<g>` or `<z>` keys. It's kind of like using
